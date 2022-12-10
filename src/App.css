@@ -1,0 +1,177 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.inputTask{
+  width: 240px;
+  padding: 10px;
+  border: 1px solid #3f4246;  
+}
+
+button {
+  width: 60px;
+    padding: 10px;
+    margin: 0 0 0 14px;
+    border: 1px solid #46494d;
+    background-color: #b3e5fc;
+}
+
+.task-row {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  
+}
+
+h3.task-list-header {
+  text-align: left;
+  border: 1px solid #f0f1f2;
+  padding: 8px;
+  width: 257px;
+  font-size: 15px;
+  margin: 27px 0 0 0;
+  background-color: #f0f1f2;
+  background-color: #b3e5fc;
+}
+
+img {
+  height: 20px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.task-list-item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  border: 1px solid #f0f1f2;
+  font-size: 12px;
+  /* gap: 80px; */
+}
+
+
+.div2{
+  display: flex;
+  align-items: center;
+}
+.task-name{
+  width: 191px;
+}
+.image {
+  margin: 12px 0 0 167px;
+}
+
+.task-list-item1 {
+  display: flex;
+  text-align: left;
+  border: 1px solid #f0f1f2;
+
+  font-size: 13px;
+}
+
+.task-list-item1 img {
+  margin: 5px 0 0 0;
+  padding: 7px;
+  cursor: pointer;
+}
+
+img.completeimg {
+  margin: 5px 0 0 100px;
+}
+
+
+.task1{
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.task2{
+  display: flex;
+}
+
+/* .newInput {
+  width: 177px;
+} */
+
+.aditInput{
+  width: 179px;
+  padding: 9px;
+
+}
